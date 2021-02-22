@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial,Verdana,Helvetica;
+    background-color: #0B614B; 
+    color: #000000;
+
+}
+#Seite {
+    width: 1000px;
+    background-color: #FFFFFF; 
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Kopf {
+    height: 150px;
+    background-color: #FFFFFF;
+    background-image: url(images/banner.png);
+
+ }
+
+ #Kopf h1 {
+    text-align: left;
+    padding-top: 20px;
+    font-family: Helvetica;
+    font-size: 22pt;
+ }
+ #Kopf h2 {
+    padding-top: 10px;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 12pt; 
+ }
+ #Kopf li {
+    float: left;
+    padding-left: 40px;
+    padding-top: 10px;
+ }
+
+#Navigation {
+    width: 210px;
+    float: left;
+    text-align: center;
+    padding-left: 30px;
+}
+.karte {
+     width: 210px;
+    float: left;
+    text-align: center;
+    padding-left: 15px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 30px;
+    padding: 2em 0 0 1em;
+}
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.navi a {
+    width: 150px;
+    display: block; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #088A68;
+    border-top: 1px solid #088A68;
+    border-left: 1px solid #088A68;
+    border-right: 1px solid #088A68;
+    border-bottom: 1px solid #088A68;
+}
+.navi a:hover {
+    color: white;
+    background-color: #088A68;
+    border-top: 1px solid #088A68;
+    border-left: 1px solid #088A68;
+    border-right: 1px solid #088A68;
+    border-bottom: 1px solid #088A68;
+}
+.navi p {
+    text-align: center;
+}
+#Inhalt {
+    background-color: #FFFFFF;
+    margin-left: 250px;
+    min-height: 465px;
+    padding-top: 30px;
+    text-align: justify;
+}
+#Inhalt h1 {
+    padding-top: 20px;
+    font-family: Helvetica;
+    font-size: 20pt;
+ }
+ #Inhalt h2 {
+    padding-top: 10px;
+    font-family: Helvetica;
+    font-size: 15pt;
+
+ }
+#Inhalt h3 {
+    font-family: Helvetica;
+    font-size: 12pt;
+    margin-right: 222px;
+ }
+
+#Fuss {
+    background-color: #088A68;
+    text-align: center;
+}
+#Fuss a {
+    text-decoration: none;
+    color: white;
+}
+.aktuell {
+    width: 150px;
+    display: block; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #088A68;
+    border-top: 1px solid #088A68;
+    border-left: 1px solid #088A68;
+    border-right: 1px solid #088A68;
+    border-bottom: 1px solid #088A68;
+}
+p {
+    padding: 0.5em 14em 1em 0em;
+    text-align: justify;
+    line-height: 130%;
+}
+
+table {
+    color: black;
+    border-collapse: seperate;
+    border-spacing: 2px;
+    text-align: left;
+}
+td {
+    padding-right: 55px;
+    padding-bottom: 20px;
+    font-size: 10pt;
+    vertical-align: baseline;
+}
+th {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+    font-size: 15pt;
+    color: #088A68;
+    font-family: Helvetica;
+
+}
+a {
+    color:  #088A68;
+    text-decoration: none;
+}
+
+figure figcaption {
+  padding: 4px 0px 0px 0px;
+  font-style: italic;
+  font-size: 10pt;
+}
+.button {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #088A68;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+h4 {
+    font size: 10pt;
+    color: #bd0000;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  backface-visibility: hidden;
+}
